@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Priya04's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/pri.jpg">
+    <script src="https://kit.fontawesome.com/8ee73887eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--HEADER-->
+    
+    <header>
+        <div class="inner-header">
+            <ul class="menu">
+                <li><a href="#1">Home</a></li>
+                <li><a href="#2">About</a></li>
+                <li><a href="#3">Projects</a></li>
+                <li><a href="#4">Contact</a></li>
+                <i class="fa-solid fa-times"></i>                
+            </ul>
+                <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!--BANNER-->
+
+    <div class="banner" id="1">
+        <div class="inner-banner">
+                <p>Designer/Developer</p>
+                <h1>Hi, I am <div class="ani">
+                    <span style="--x:1">P</span>
+                    <span style="--x:2">R</span>
+                    <span style="--x:3">I</span>
+                    <span style="--x:4">Y</span>
+                    <span style="--x:5">A</span>
+                </div>
+            </h1>
+        </div>
+    </div>
+
+    <!--ABOUT-->
+
+    <div class="about" id="2">
+        <div class="inner-about">
+            <div class="inner-about-img">
+                <img src="images/user2.png" alt="">
+            </div>            
+            <div class="inner-about-content">
+                <h1>About Me</h1>
+                <p>Self-motivated and hardworking, seeking for an opportunity in development field and to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization. I believe that I would make an excellent addition to your team.</p>     
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                    <p class="tab-links" onclick="opentab('job')">Job</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End Development</span><br>HTML, CSS & JavaScript</li>
+                        <li><span>Programming Languages</span><br>C++, Java (Basic)</li>
+                        <li><span>Tools</span><br>Git/Git HUB & VS Code</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>MCA - Online</span><br>Lovely Professional University [2022 - 2024]</li>
+                        <li><span>BCA</span><br>Guru Gobind Singh Indraprastha University [2017 - 2020]</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><a href="https://cert.devtown.in/verify/M8fbXScgp" target="_blank"><span>Full Stack Development Course</span></a><br>DevTown [March'23 - June'23]</li>
+                        <li><a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzI0IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDI0NDg2M18xNjc5NzU4NDkwLnBuZyIsInVzZXJuYW1lIjoiUHJpeWEifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4212%2FJavaScript-for-Beginners%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1097489192592777497&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FV9%2FHwSyutcjYqrkwCAJn5uvAlAAAA" target="_blank"><span>JavaScript for Beginners</span></a><br>SimpliLearn [March'23]</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="internship">
+                    <ul>
+                        <li><span>Intern as a Web Developer</span><br>Bharat Intern [August'23 - September'23]</li>
+                        <li><span>Intern as a Full Stack Developer</span><br>Bharat Intern [August'23 - September'23]</li>
+                        <li><span>Advanced Software Engineering Virtual Experience Program</span><br>Walmart (Forage) [July'23 - August'23]</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="job">
+                    <ul>
+                        <li><span>Windows Server Administrator</span><br>Wipro Technologies [January'21 - Present]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MY WORK-->
+
+    <div class="portfolio" id="3">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/N.png">
+                    <div class="layer">
+                        <h3>Netflix - Clone</h3>
+                        <p>Recreated the front-end of Netflix using HTML and CSS</p>
+                        <a href="https://ps4299.github.io/Netflix-Clone/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+
+    <!---CONTACT-->
+
+    <div class="contact" id="4">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="inner-content">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-envelope"></i>psingh16189251@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8700544946</p>
+                    <p><i class="fa-solid fa-location-dot"></i>New Delhi, India</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/priya0402" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ps4299/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/_priya_04_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>                        
+                    </div>
+                    <a href="images/priya_resume.pdf" download target="_blank" class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" method="post">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SCRIPT-->
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");    
+        var tabcontents = document.getElementsByClassName("tab-contents");    
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+</body>
+</html>
